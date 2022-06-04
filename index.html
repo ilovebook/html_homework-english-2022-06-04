@@ -1,10 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>HTML</title>
-</head>
-<body>
 
-</body>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .question {
+            margin: 20px;
+        }
+        
+        .answer {
+            margin-left: 37px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Unified Modeling Language Theory Test</h1>
+    <table cellpadding="10">
+        <tr>
+            <td>Test Subject:</td>
+            <td>Unified Modeling Language</td>
+            <td>Time:</td>
+            <td>100 minute</td>
+            <td>Score:</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Class:</td>
+            <td><input type="text" value="Class1" /></td>
+            <td>Student ID:</td>
+            <td>001</td>
+            <td>Name:</td>
+            <td>Darcy</td>
+        </tr>
+    </table>
+    <h1>1、Fill in the blanks(5 points per space,20 points total)</h1>
+    <div class="question">
+        1.The full name of UML in Chinese is:
+        <span><input type="text" value="Unified Modeling Language" /></span>
+    </div>
+
+    <div class="question">
+        2.The most prominent feature of the object is
+        <span>
+        <input type="text" value="Encapsulation" />
+        <input type="text" value="Inheritance" />
+        <input type="text" value="Polymorphism" />
+      </span>
+    </div>
+
+    <h1>2、Multiple choice question(10 points per space,20 points total)</h1>
+    <div class="question">
+        1.The relationship between UML and software engineering is:
+    </div>
+
+    <div class="answer">
+        <div>
+            <input type="checkbox" id="cbox2_1_A" value="A" />
+            <label for="cbox2_1_A">(A) UML is software engineering</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cbox2_1_B" value="B" checked="checked" />
+            <label for="cbox2_1_B">(B) UML participates in several stages of the software development
+          proess in software engineering</label
+        >
+      </div>
+      <div>
+        <input type="checkbox" id="cbox2_1_C" value="C" />
+        <label for="cbox2_1_C"
+          >(C) UML has nothing to do with software engineering</label
+        >
+      </div>
+      <div>
+        <input type="checkbox" id="cbox2_1_D" value="D" />
+        <label for="cbox2_1_D">(D) UML is part of software engineering</label>
+        </div>
+    </div>
+    <div class="question">2.Java language support:</div>
+    <div class="answer">
+        <div>
+            <input type="checkbox" id="cbox2_1_A" value="A" />
+            <label for="cbox2_1_A">(A) Single Inheritance</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cbox2_2_B" value="B" checked="checked" />
+            <label for="cbox2_2_B">(B) Multiple Inheritance</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cbox2_2_C" value="C" />
+            <label for="cbox2_2_C">(C) Single inheritance and multiple inheritance support</label
+        >
+      </div>
+      <div>
+        <input type="checkbox" id="cbox2_2_D" value="D" />
+        <label for="cbox2_2_D"
+          >(D) Single inheritance and multiple inheritance are not
+          supported</label
+        >
+      </div>
+    </div>
+    <h1>3、Multiple choice(10 points per space,20 points total)</h1>
+    <div class="question">
+      1.The granularity of the use case is divided into the following three:
+    </div>
+    <div class="answer">
+      <div>
+        <input type="checkbox" id="cbox3_1_A" value="A" checked="checked" />
+        <label for="cbox3_1_A">(A) Overview level</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cbox3_1_B" value="B" checked="checked" />
+            <label for="cbox3_1_B">(B) Demand level</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cbox3_1_C" value="C" />
+            <label for="cbox3_1_C">(C) User target level</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cbox3_1_D" value="D" checked="checked" />
+            <label for="cbox3_1_D">(D) Sub-function level</label>
+        </div>
+    </div>
+    <div class="question">
+        2.The class diagram consists of which of the following three parts:
+    </div>
+    <div class="answer">
+        <div>
+            <input type="checkbox" id="cbox3_2_A" value="A" checked="checked" />
+            <label for="cbox3_2_A">(A) Name</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cbox3_2_B" value="B" checked="checked" />
+            <label for="cbox3_2_B">(B) Attribute</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cbox3_2_C" value="C" checked="checked" />
+            <label for="cbox3_2_C">(C) Operation</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cbox3_2_D" value="D" />
+            <label for="cbox3_2_D">(D) Function</label>
+        </div>
+    </div>
+    <h1>4、True or False(10 points per space,20 points total)</h1>
+    <div class="question">
+        1.Use case diagrams are only used to communicate and communicate with customers to determine demand
+        <span>
+        <input type="radio" name="answer1" />√
+        <input type="radio" name="answer1" checked="checked" />×
+      </span>
+    </div>
+    <div class="question">
+        2.In the state diagram,the termination state allows any number of multiples in a state diagram
+        <span>
+        <input type="radio" name="answer2" checked="checked" />√
+        <input type="radio" name="answer2" />×
+      </span>
+    </div>
+
+    <h1>5、Short answer question(20 points per space,20 points total)</h1>
+    <div class="question">
+        1.Briefly describe what the model is and how it behaves?
+    </div>
+    <textarea name="" id="" cols="100" rows="12" class="answer">
+A model is a simplification and abstraction of the real world.A model is an expression of the system,process,thing or concept of research.Can be a physical entity;can be a certain graphic;or a mathematical expression.</textarea
+    >
+  </body>
 </html>
